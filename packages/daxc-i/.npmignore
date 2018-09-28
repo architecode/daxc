@@ -1,0 +1,16 @@
+# Folders 
+.nyc_output
+node_modules
+dist
+scripts
+src
+
+# Files
+.gitignore
+*.yml
+cix-lic.json
+README.md
+tsconfig.json
+tslint.json
+
+**/*.spec.js
