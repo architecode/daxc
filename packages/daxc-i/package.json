@@ -28,7 +28,7 @@
   "license": "MIT",
   "repository": "git+https://github.com/architecode/daxc",
   "dependencies": {
-    "daxc-common": "^0.2.1"
+    "daxc-common": "0.2.1"
   },
   "devDependencies": {
     "@types/chai": "^4.1.5",

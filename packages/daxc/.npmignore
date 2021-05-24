@@ -1,15 +1,16 @@
 # Folders 
-.nyc_output
-node_modules
-scripts
-src
+/.nyc_output
+/node_modules
+/_scripts
+/_tsconfigs
+/src
+/test
 
 # Files
-.gitignore
 *.yml
-cix-lic.json
+.gitignore
+.nycrc.json
+
 README.md
 tsconfig.json
 tslint.json
-
-**/*.spec.js
