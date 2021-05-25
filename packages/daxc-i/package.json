@@ -1,6 +1,6 @@
 {
   "name": "daxc-i",
-  "version": "0.2.2-alpha.4",
+  "version": "0.2.2-alpha.5",
   "private": true,
   "description": "Identity Access implementing daxc Access Control",
   "main": "./dst/index.js",
@@ -29,7 +29,7 @@
   "license": "MIT",
   "repository": "git+https://github.com/architecode/daxc",
   "dependencies": {
-    "daxc-common": "0.2.2-alpha.4"
+    "daxc-common": "0.2.2-alpha.5"
   },
   "devDependencies": {
     "@types/chai": "4.2.18",
