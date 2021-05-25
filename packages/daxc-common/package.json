@@ -1,6 +1,6 @@
 {
   "name": "daxc-common",
-  "version": "0.2.2-alpha.3",
+  "version": "0.2.2-alpha.4",
   "description": "Common Module for daxc Access Control",
   "main": "./lib/index.js",
   "typings": "./typings/index.d.ts",
