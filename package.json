@@ -10,9 +10,9 @@
     "aftertests": "lerna run aftertests",
     "cix-lic": "lerna run cix-lic",
     "coverage": "lerna run coverage",
-    "publish": "lerna publish",
-    "publish-patch": "lerna publish --cd-version=patch --yes",
-    "publish-next": "lerna publish --cd-version=prerelease --npm-tag=next --yes"
+    "release": "lerna publish --force-publish --exact",
+    "release-patch": "lerna publish --force-publish --exact --cd-version=patch --yes",
+    "release-next": "lerna publish --force-publish --exact --cd-version=prerelease --npm-tag=next --yes"
   },
   "devDependencies": {
     "lerna": "4.0.0"
