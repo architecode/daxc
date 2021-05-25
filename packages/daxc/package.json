@@ -1,6 +1,6 @@
 {
   "name": "daxc",
-  "version": "0.2.2-alpha.2",
+  "version": "0.2.2-alpha.3",
   "description": "Common Module for daxc Access Control",
   "main": "./lib/index.js",
   "typings": "./typings/index.d.ts",
@@ -34,10 +34,9 @@
   "license": "MIT",
   "repository": "git+https://github.com/architecode/daxc",
   "dependencies": {
-    "daxc-common": "0.2.2-alpha.2"
+    "daxc-common": "0.2.2-alpha.3"
   },
   "devDependencies": {
     "archdevts": "21.4.1"
-  },
-  "gitHead": "d20e7d13fcedb77c4466e52ddec619dc2d550084"
+  }
 }
