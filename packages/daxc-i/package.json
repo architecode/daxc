@@ -1,6 +1,6 @@
 {
   "name": "daxc-i",
-  "version": "0.2.1",
+  "version": "0.2.2-alpha.0",
   "description": "Identity Access implementing daxc Access Control",
   "main": "./dst/index.js",
   "typings": "./typings/index.d.ts",
