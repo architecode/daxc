@@ -1,0 +1,1 @@
+export { IdentityAccessResolver } from "./IdentityAccessResolver";

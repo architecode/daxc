@@ -1,16 +1,22 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    "rootDir": "src",
+    "outDir": "lib",
+    "module": "commonjs",
+    "target": "esnext",
     "declaration": true,
     "declarationDir": "typings",
-    "module": "commonjs",
+    "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node",
     "noImplicitAny": true,
-    "outDir": "dst",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
     "removeComments": true,
-    "rootDir": "src",
-    "sourceMap": false,
-    "target": "esnext",
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "suppressImplicitAnyIndexErrors": true,
     "paths": {
       "*": [
         "node_modules/*"
@@ -22,5 +28,7 @@
   ],
   "exclude": [
     "node_modules",
+    "lib",
+    "test"
   ]
 }
